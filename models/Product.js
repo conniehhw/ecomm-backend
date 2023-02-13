@@ -11,7 +11,7 @@ Product.init(
   {
     // define columns
     // Manually define the primary key
-    book_id: {
+    product_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
