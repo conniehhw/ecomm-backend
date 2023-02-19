@@ -9,7 +9,10 @@ router.get("/", async (req, res) => {
   try {
     const productData = await Product.findAll({
       include: [{ model: Category }, { model: Tag }],
+      // include: Category,
+      // Tag,
     });
+
     res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
@@ -70,15 +73,12 @@ router.post("/", async (req, res) => {
 //TEST
 // update a product by its `id` value
 
-
-
-
 // update product
 router.put("/:id", (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
-     id: req.params.id, 
+      id: req.params.id,
     },
   })
     .then((product) => {
