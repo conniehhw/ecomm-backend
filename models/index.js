@@ -29,7 +29,7 @@ Product.belongsToMany(Tag, {
 Tag.belongsToMany(Product, {
   through: {
     model: ProductTag,
-    unique: true,
+    unique: true, // need to figure out how to not have duplicates as confusing
   },
 });
 

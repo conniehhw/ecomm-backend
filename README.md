@@ -1,6 +1,6 @@
 # E-commerce Back End
 
-Link to video walk through: [https://drive.google.com/file/d/1G7d-f7vJ5HBsfscIzgwTRNbndIK7o4Qd/view/](https://drive.google.com/file/d/1G7d-f7vJ5HBsfscIzgwTRNbndIK7o4Qd/view/)
+Link to video walk through: [https://drive.google.com/file/d/1G7d-f7vJ5HBsfscIzgwTRNbndIK7o4Qd/view](https://drive.google.com/file/d/1G7d-f7vJ5HBsfscIzgwTRNbndIK7o4Qd/view)
 
 ## Description
 
@@ -16,7 +16,7 @@ An existing Express.js API was configured to use Sequelize to interact wiht MySQ
 2. Open MySQL workbench to check the database is created as per schema file and seeded.
 3. Open Insomnia to test routes for categories, products and tags.
 
-Click [here](https://drive.google.com/file/d/1G7d-f7vJ5HBsfscIzgwTRNbndIK7o4Qd/view/) to watch a video walk-through.
+Click [here](https://drive.google.com/file/d/1G7d-f7vJ5HBsfscIzgwTRNbndIK7o4Qd/view) to watch a video walk-through.
 
 Some additonal visual examples below.
 ![Screen shot - VScode Schema & Connection ](./assets/VSCode-Schema-Connection.jpg)
